@@ -275,3 +275,8 @@ nav a:hover::after {
   text-decoration: underline;
 }
 
+.validation-section {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 2rem;
+}
+
