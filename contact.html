@@ -24,8 +24,12 @@
     For collaborations, partnerships, or technical discussions, please reach out using the form below.
   </p>
 
-  <form action="https://formspree.io/f/xkoooygq" method="POST" class="contact-form">
-    
+  <form
+    action="https://formspree.io/f/xkoooygq"
+    method="POST"
+    class="contact-form"
+  >
+
     <label>
       Name
       <input type="text" name="name" required>
@@ -46,9 +50,14 @@
       <textarea name="message" rows="5" required></textarea>
     </label>
 
+    <!-- Optional: identify source -->
+    <input type="hidden" name="source" value="CAAPI Website">
+    <input type="hidden" name="_redirect" value="https://caapi.ai/thank-you.html">
+
     <button type="submit" class="button">Send Message</button>
   </form>
 </section>
+
 
 
   
