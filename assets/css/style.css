@@ -100,6 +100,15 @@ footer {
   transform: translateY(-4px);
   box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
+.card ul {
+  padding-left: 1.2rem;
+}
+
+.card li {
+  margin-bottom: 0.6rem;
+  color: var(--text-muted);
+}
+
 nav a {
   position: relative;
   padding-bottom: 4px;
