@@ -254,7 +254,7 @@ nav a:hover::after {
   line-height: 1.65;
 }
 
-.tech-toc {
+/* .tech-toc {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -273,10 +273,44 @@ nav a:hover::after {
 .tech-toc a:hover {
   opacity: 1;
   text-decoration: underline;
-}
+} */
 
 .validation-section {
   border-top: 1px solid rgba(255,255,255,0.06);
   padding-top: 2rem;
+}
+
+.tech-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.tech-sidebar {
+  position: sticky;
+  top: 120px; /* below header */
+}
+
+.tech-toc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-toc li {
+  margin-bottom: 0.75rem;
+}
+
+.tech-toc a {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.tech-toc a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
