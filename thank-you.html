@@ -31,11 +31,25 @@
   <p>
     <a href="index.html">← Return to Home</a>
   </p>
-  <script>
-    setTimeout(() => {
+<p id="redirect-note" style="margin-top: 1rem; color: var(--text-muted);">
+  You will be redirected to the home page in 7 seconds.
+</p>
+
+<script>
+  let seconds = 7;
+  const note = document.getElementById("redirect-note");
+
+  const countdown = setInterval(() => {
+    seconds--;
+    note.textContent = `You will be redirected to the home page in ${seconds} seconds.`;
+
+    if (seconds === 0) {
+      clearInterval(countdown);
       window.location.href = "index.html";
-    }, 7000);
-  </script>
+    }
+  }, 1000);
+</script>
+
 </section>
 
 <footer>
