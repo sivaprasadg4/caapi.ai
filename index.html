@@ -10,7 +10,7 @@
 <header>
   <div class="header-inner">
   <strong class="logo">CAAPI.AI</strong>
-  <nav>
+  <nav class="main-nav">
     <a href="index.html">Home</a>
     <a href="technology.html">Technology</a>
     <a href="solutions.html">Solutions</a>
@@ -235,6 +235,15 @@ acceleration for rapid and reliable prediction.
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
   lucide.createIcons();
+</script>
+  
+<script>
+  const currentPage = location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll(".main-nav a").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
 </script>
 
 </body>
