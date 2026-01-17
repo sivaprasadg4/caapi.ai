@@ -289,7 +289,8 @@ nav a:hover::after {
 
 .tech-sidebar {
   position: sticky;
-  top: 120px; /* below header */
+  top: 120px;
+  align-self: flex-start;
 }
 
 .tech-toc {
