@@ -143,24 +143,27 @@ nav a:hover::after {
   box-shadow: 0 8px 20px rgba(56,189,248,0.3);
 }
 
-/* .team-card {
+/* Team card specific styling */
+.team-card h3 {
   text-align: center;
-} */
+  margin-bottom: 0.25rem;
+}
 
-/* Center name and designation only */
-.team-card h3,
 .team-card p strong {
-  text-align: center;
   display: block;
-  margin-bottom: 0.4rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
 }
 
-/* Description text – clean and readable */
 .team-card p {
-  text-align: left;      /* OR justify (see below) */
-  line-height: 1.5;
-  margin-top: 0.4rem;
+  text-align: left;        /* or justify if you prefer */
+  line-height: 1.55;
+  font-size: 0.95rem;
+  max-width: 38ch;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .company-description p {
   text-align: justify;
