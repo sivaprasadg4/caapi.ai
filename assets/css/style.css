@@ -254,4 +254,24 @@ nav a:hover::after {
   line-height: 1.65;
 }
 
+.tech-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-toc a {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.tech-toc a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
 
