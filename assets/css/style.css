@@ -206,4 +206,19 @@ nav a:hover::after {
 .contact-form button {
   margin-top: 1rem;
 }
+.section-intro {
+  max-width: 800px;
+  margin-bottom: 2rem;
+  color: var(--text-muted);
+}
+
+.product-list {
+  list-style: disc;
+  padding-left: 1.2rem;
+}
+
+.product-list li {
+  margin-bottom: 1.2rem;
+  line-height: 1.55;
+}
 
