@@ -10,7 +10,7 @@
 <header>
   <div class="header-inner">
   <strong class="logo">CAAPI.AI</strong>
-  <nav>
+  <nav class="main-nav">
     <a href="index.html">Home</a>
     <a href="technology.html">Technology</a>
     <a href="solutions.html">Solutions</a>
@@ -68,6 +68,14 @@
   © CAAPI
 </footer>
 <script src="assets/js/reveal.js"></script>
+<script>
+  const currentPage = location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll(".main-nav a").forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
 
 </body>
 </html>
