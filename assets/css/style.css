@@ -222,3 +222,18 @@ nav a:hover::after {
   line-height: 1.55;
 }
 
+.icon-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.icon-heading svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  fill: none;
+  opacity: 0.85;
+}
+
