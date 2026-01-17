@@ -304,11 +304,13 @@ nav a:hover::after {
 }
 
 .tech-toc a {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 400;
   color: var(--accent);
-  text-decoration: none;
-  opacity: 0.75;
+  opacity: 0.85;
+  line-height: 1.4;
 }
+
 
 .tech-toc a:hover {
   opacity: 1;
