@@ -314,3 +314,13 @@ nav a:hover::after {
   text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  .tech-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-sidebar {
+    display: none;
+  }
+}
+
