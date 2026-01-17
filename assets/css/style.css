@@ -238,4 +238,11 @@ nav a:hover::after {
   flex-shrink: 0;
 }
 
+.section-intro {
+  max-width: 900px;
+  margin-bottom: 2rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 
