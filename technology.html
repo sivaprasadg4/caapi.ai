@@ -167,6 +167,34 @@
     }
   });
 </script>
+  
+<script>
+  const sections = document.querySelectorAll(".tech-content section");
+  const navLinks = document.querySelectorAll(".tech-toc a");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute("id");
+
+          navLinks.forEach(link => {
+            link.classList.toggle(
+              "active",
+              link.getAttribute("href") === `#${id}`
+            );
+          });
+        }
+      });
+    },
+    {
+      rootMargin: "-40% 0px -50% 0px",
+      threshold: 0
+    }
+  );
+
+  sections.forEach(section => observer.observe(section));
+</script>
 
 </body>
 </html>
