@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Technology | CAAPI</title>
+  <title>Technology | CAAPI.AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CAAPI technology deep dive: computational physics, scientific machine learning, hybrid solvers, and decision-support systems for aerospace and defence.">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -11,36 +13,131 @@
   <strong>CAAPI.AI</strong>
   <nav>
     <a href="index.html">Home</a>
+    <a href="technology.html">Technology</a>
     <a href="solutions.html">Solutions</a>
     <a href="company.html">Company</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
+<!-- OVERVIEW -->
 <section class="container reveal">
   <h1 class="section-title">Technology</h1>
 
-  <div class="grid">
-    <div class="card">
-      <h3>Physics-Based Modelling</h3>
-      <p>Governing-equation-driven models for fluid dynamics, ballistics, structural response, and coupled systems.</p>
-    </div>
-    <div class="card">
-      <h3>Scientific ML</h3>
-      <p>PINNs, reduced-order models, and hybrid solvers that embed physics directly into learning architectures.</p>
-    </div>
-    <div class="card">
-      <h3>High-Performance Computing</h3>
-      <p>Scalable numerical implementations optimized for modern compute architectures.</p>
-    </div>
-  </div>
+  <p class="section-intro">
+    CAAPI develops high-fidelity computational technologies by tightly
+    integrating first-principles physics with scientific machine learning.
+    Our approach prioritises accuracy, robustness, and deployability in
+    real-world aerospace and defence systems.
+  </p>
+</section>
+
+<!-- COMPUTATIONAL PHYSICS -->
+<section class="container reveal">
+  <h2 class="section-title">Computational Physics Foundation</h2>
+
+  <p>
+    At the core of CAAPI’s technology stack are physics-based numerical solvers
+    derived from governing conservation laws. These solvers are designed to
+    accurately capture nonlinear phenomena such as shocks, multiphase
+    interactions, and strongly coupled flow-structure effects.
+  </p>
+
+  <p>
+    Emphasis is placed on high-order spatial and temporal discretisation,
+    stability in extreme regimes, and extensibility across problem classes.
+  </p>
+</section>
+
+<!-- SCIENTIFIC ML -->
+<section class="container reveal">
+  <h2 class="section-title">Scientific Machine Learning</h2>
+
+  <p>
+    CAAPI employs physics-informed and physics-guided machine learning
+    methodologies that embed governing equations, constraints, and invariants
+    directly into learning architectures.
+  </p>
+
+  <p>
+    This enables data-efficient training, improved generalisation beyond
+    training regimes, and physically consistent predictions under sparse or
+    noisy data conditions.
+  </p>
+</section>
+
+<!-- HYBRID SOLVERS -->
+<section class="container reveal">
+  <h2 class="section-title">Hybrid Solvers & Computational Acceleration</h2>
+
+  <p>
+    To address the computational cost of high-fidelity simulations, CAAPI
+    develops hybrid solver architectures that couple numerical solvers with
+    learned surrogate components.
+  </p>
+
+  <p>
+    These hybrids retain physical fidelity while achieving orders-of-magnitude
+    reductions in runtime, enabling rapid design iteration, optimisation, and
+    real-time decision support.
+  </p>
+</section>
+
+<!-- TRAJECTORY -->
+<section class="container reveal">
+  <h2 class="section-title">Trajectory & Ballistic Modelling</h2>
+
+  <p>
+    CAAPI’s trajectory modelling frameworks address both interior and exterior
+    ballistics, incorporating propulsion dynamics, aerodynamics, environmental
+    effects, and uncertainty propagation.
+  </p>
+
+  <p>
+    Physics-based solvers are augmented with data-driven acceleration to enable
+    fast and reliable trajectory prediction suitable for simulation,
+    analysis, and decision-support applications.
+  </p>
+</section>
+
+<!-- DECISION SUPPORT -->
+<section class="container reveal">
+  <h2 class="section-title">Decision Support Systems</h2>
+
+  <p>
+    Building on its modelling capabilities, CAAPI develops decision-support
+    tools that integrate simulation outputs, reduced-order models, and
+    uncertainty-aware predictions.
+  </p>
+
+  <p>
+    These systems are designed to support planning, analysis, and engineering
+    workflows in complex operational contexts, while remaining transparent and
+    explainable to domain experts.
+  </p>
+</section>
+
+<!-- VALIDATION -->
+<section class="container reveal">
+  <h2 class="section-title">Validation & Deployment Philosophy</h2>
+
+  <p>
+    CAAPI places strong emphasis on verification, validation, and traceability.
+    Models are evaluated against analytical solutions, high-fidelity reference
+    simulations, and experimental or field data where available.
+  </p>
+
+  <p>
+    Deployment considerations — including robustness, interpretability, and
+    integration with existing workflows — are treated as first-class design
+    constraints.
+  </p>
 </section>
 
 <footer>
-  © CAAPI
+  © CAAPI.AI | All rights reserved
 </footer>
-  
-<script src="assets/js/reveal.js"></script>
 
+<script src="assets/js/reveal.js"></script>
 </body>
 </html>
