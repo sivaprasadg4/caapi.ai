@@ -143,8 +143,18 @@ nav a:hover::after {
   box-shadow: 0 8px 20px rgba(56,189,248,0.3);
 }
 
+.team-card {
+  text-align: center;
+}
+
 .team-card p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.team-card h3,
+.team-card p strong {
+  text-align: center;
+  display: block;
 }
 
