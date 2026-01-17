@@ -377,7 +377,7 @@ nav a:hover::after {
 }
 .logo {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 750;
   font-size: 1.6rem;
   letter-spacing: 0.5px;
   color: #f2b34c; /* match your logo gold */
