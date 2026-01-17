@@ -17,6 +17,11 @@ body {
   background-color: var(--bg-dark);
   color: var(--text-main);
   line-height: 1.6;
+  padding-top: 70px;
+}
+
+section {
+  scroll-margin-top: 90px;
 }
 
 a {
@@ -25,12 +30,16 @@ a {
 }
 
 header {
-  background: var(--bg-light);
-  padding: 1.2rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(10, 14, 25, 0.95);
+  backdrop-filter: blur(6px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
+
 
 nav a {
   margin-left: 1.5rem;
