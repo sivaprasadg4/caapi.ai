@@ -408,11 +408,13 @@ nav a:hover::after {
 }
 
 .solutions-section p {
-  line-height: 1.6;
   max-width: 74ch;
-  margin-top: 0rem;
-  /* margin-top: 0; */
-  /* line-height: 1.6; */
+  margin-top: 0;
+}
+
+.solutions-section p:not(.solution-subheading) {
+  margin-top: 0;
+  line-height: 1.6;
 }
 .solutions-section .section-title {
   margin-bottom: 0.25rem; /* tighten heading → subtitle */
@@ -431,10 +433,12 @@ nav a:hover::after {
 
 .solution-subheading {
   margin-top: 0;
-  margin-bottom: 1.1rem; /* space before paragraph */
-  font-size: 1.05rem;
-  opacity: 0.85;
+  margin-bottom: 0.9rem;
+  font-size: 1.02rem;
+  line-height: 1.35;   /* <-- THIS is critical */
+  opacity: 0.88;
 }
+
 
 .main-nav a {
   position: relative;
