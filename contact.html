@@ -69,9 +69,46 @@
 
 
   
-<footer>
-  © CAAPI
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <span class="footer-logo">caapi.ai</span>
+      <p>
+        Physics-driven computational intelligence for aerospace and
+        defence systems.
+      </p>
+    </div>
+
+    <div class="footer-contact">
+      <p>
+        <strong>Contact</strong><br>
+        <a href="mailto:admin@caapi.ai">admin@caapi.ai</a>
+      </p>
+      <p>
+        <strong>Location</strong><br>
+        India
+      </p>
+    </div>
+
+    <div class="footer-legal">
+      <p>
+        <strong>Legal</strong><br>
+        <a href="privacy.html">Privacy Policy</a><br>
+        <a href="terms.html">Terms of Use</a>
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © <span id="year"></span> <span class="brand-name">caapi.ai</span>. All rights reserved.
+  </div>
 </footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 <script src="assets/js/reveal.js"></script>
 <script>
   const currentPage = location.pathname.split("/").pop() || "index.html";
