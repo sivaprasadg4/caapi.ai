@@ -399,7 +399,7 @@ nav a:hover::after {
 }
 
 .solutions-section {
-  padding-top: 3rem;
+  padding-top: 2.2rem;
   padding-bottom: 3rem;
 }
 
@@ -415,7 +415,7 @@ nav a:hover::after {
   /* line-height: 1.6; */
 }
 .solutions-section .section-title {
-  margin-bottom: 0.4rem; /* tighten heading → subtitle */
+  margin-bottom: 0.25rem; /* tighten heading → subtitle */
 }
 
 .solutions-section .subheading {
@@ -424,6 +424,10 @@ nav a:hover::after {
   margin-top: 0.4rem;
 }
 
+.solutions-section .solution-subheading {
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+}
 
 .solution-subheading {
   margin-top: 0;
