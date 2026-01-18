@@ -33,6 +33,18 @@ section p {
   max-width: 74ch;
   line-height: 1.55;
 }
+/* Section spacing utilities (canonical rhythm) */
+.section-tight {
+  margin-bottom: 1.2rem;
+}
+
+.section-normal {
+  margin-bottom: 2.2rem;
+}
+
+.section-loose {
+  margin-bottom: 3.2rem;
+}
 
 a {
   color: var(--accent);
