@@ -398,6 +398,27 @@ nav a:hover::after {
   margin: 3rem 0;
 }
 
+.solutions-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.solutions-section + .solutions-section {
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.solutions-section p {
+  line-height: 1.6;
+  max-width: 74ch;
+  margin-top: 0.8rem;
+}
+
+.solutions-section .subheading {
+  font-size: 1.05rem;
+  opacity: 0.85;
+  margin-top: 0.4rem;
+}
+
 .main-nav a {
   position: relative;
   text-decoration: none;
@@ -436,6 +457,12 @@ nav a:hover::after {
 
 .cta-section .button {
   margin-top: 1.2rem;
+}
+
+.cta-footer {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 2rem;
+  text-align: left;
 }
 
 .brand-name {
