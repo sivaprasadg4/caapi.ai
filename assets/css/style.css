@@ -410,13 +410,22 @@ nav a:hover::after {
 .solutions-section p {
   line-height: 1.6;
   max-width: 74ch;
-  margin-top: 0.8rem;
+  margin-top: 0rem;
+  /* margin-top: 0; */
+  /* line-height: 1.6; */
 }
 
 .solutions-section .subheading {
   font-size: 1.05rem;
   opacity: 0.85;
   margin-top: 0.4rem;
+}
+
+.solution-subheading {
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem; /* <-- THIS fixes the crowding */
+  font-size: 1.05rem;
+  opacity: 0.85;
 }
 
 .main-nav a {
