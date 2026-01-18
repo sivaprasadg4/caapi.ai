@@ -414,6 +414,9 @@ nav a:hover::after {
   /* margin-top: 0; */
   /* line-height: 1.6; */
 }
+.solutions-section .section-title {
+  margin-bottom: 0.4rem; /* tighten heading → subtitle */
+}
 
 .solutions-section .subheading {
   font-size: 1.05rem;
@@ -421,9 +424,10 @@ nav a:hover::after {
   margin-top: 0.4rem;
 }
 
+
 .solution-subheading {
-  margin-top: 0.6rem;
-  margin-bottom: 1.2rem; /* <-- THIS fixes the crowding */
+  margin-top: 0;
+  margin-bottom: 1.1rem; /* space before paragraph */
   font-size: 1.05rem;
   opacity: 0.85;
 }
