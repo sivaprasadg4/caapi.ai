@@ -419,3 +419,11 @@ nav a:hover::after {
   margin-top: 1.2rem;
 }
 
+.brand-name {
+  font-family: "Poppins", sans-serif; /* or your brand font */
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
