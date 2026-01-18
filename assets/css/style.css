@@ -24,6 +24,16 @@ section {
   scroll-margin-top: 90px;
 }
 
+section.container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+section p {
+  max-width: 74ch;
+  line-height: 1.55;
+}
+
 a {
   color: var(--accent);
   text-decoration: none;
@@ -75,7 +85,7 @@ nav a {
 .hero-title {
   max-width: 900px;
   line-height: 1.15;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem; 
 }
 
 .hero-subtitle {
@@ -85,6 +95,7 @@ nav a {
   margin-top: 1rem;
   padding-top: 4rem;
   padding-bottom: 3.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .section-title {
@@ -95,7 +106,8 @@ nav a {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
+  /* gap: 2rem; */
+  gap: 24px;
 }
 
 .card {
@@ -338,6 +350,8 @@ nav a:hover::after {
   position: sticky;
   top: 120px;
   align-self: flex-start;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
 }
 
 .tech-toc {
@@ -416,6 +430,8 @@ nav a:hover::after {
 .cta-section {
   text-align: left;
   margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .cta-section .button {
@@ -446,7 +462,7 @@ nav a:hover::after {
 }
 
 .proof-list li {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.8rem;
   line-height: 1.55;
 }
 
@@ -505,5 +521,15 @@ nav a:hover::after {
   opacity: 0.7;
   padding: 1rem 0 1.5rem;
   border-top: 1px solid rgba(255,255,255,0.04);
+}
+/* 
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.25rem; } */
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.4rem; }
+  .hero-subtitle { font-size: 0.98rem; }
 }
 
