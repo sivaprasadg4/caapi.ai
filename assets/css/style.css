@@ -173,6 +173,20 @@ nav a:hover::after {
   box-shadow: 0 8px 20px rgba(56,189,248,0.3);
 }
 
+.button-primary {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.button-primary:hover {
+  background: var(--accent);
+  color: #000;
+}
+
 /* Team card specific styling */
 .team-card h3 {
   text-align: center;
@@ -394,5 +408,14 @@ nav a:hover::after {
   letter-spacing: 0.5px;
   color: #f2b34c; /* match your logo gold */
   text-transform: lowercase;
+}
+
+.cta-section {
+  text-align: left;
+  margin-top: 4rem;
+}
+
+.cta-section .button {
+  margin-top: 1.2rem;
 }
 
